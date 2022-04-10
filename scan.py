@@ -87,5 +87,5 @@ def drive(name,host):
 
 
 NAME = input("[=> Enter name of project: ")
-HOST = input("[=> Enter host without [http/https] - [eg: admiralarjun.com]:")
+HOST = input("[=> Enter host without [http/https] - [eg: admiralarjun.com]: ")
 drive(NAME,HOST)
