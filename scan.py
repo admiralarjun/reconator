@@ -86,4 +86,6 @@ def drive(name,host):
     genReport(name,host,ip,NMAP,ROBOTS,WHOIS)
 
 
-drive("arjun","admiralarjun.com")
+NAME = input("[=> Enter name of project: ")
+HOST = input("[=> Enter host without [http/https] - [eg: admiralarjun.com]:")
+drive(NAME,HOST)
